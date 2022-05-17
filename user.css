@@ -1,0 +1,108 @@
+header{
+
+    background-color: #b9b6b6;
+  
+    padding: 20px;
+  
+    columns: 3;
+  
+    text-align: center;
+  
+  }
+  
+  .logo{
+  
+    background-color: #f0eaea;
+  
+    margin-left: 0px;
+  
+    margin-right: 0px;
+  
+  }
+  
+  img{
+  
+    padding: 4px;
+  
+    width: 200%;
+  
+    height: 100%;
+  
+  }
+  
+  
+  .carrossel{
+  
+    background-color: #595959;
+  
+    color: white;
+  
+    padding-right: 2%;
+  
+    padding-left: 2%;
+  
+    padding-bottom: 200px;
+  
+    padding-top: 200px;
+  
+  }
+  
+  .section{
+  
+    columns: 3;
+  
+    background-color: #a2a0a0;
+  
+    padding: 100px;
+  
+  }
+  
+  
+  .edit{
+  
+    background-color: #ffffff;
+  
+    padding: 3px;
+  
+    padding-bottom: 200px;
+  
+    text-align: justify;
+  
+  }
+  
+  
+  .biolab-um{
+  
+    padding: 50px;
+  
+    columns: 3;
+  
+    padding-bottom: 30px;
+  
+    padding-top: 30px;
+  
+    text-align: justify;
+  
+  }
+  
+  
+  .biolab{
+  
+    padding-bottom: 50px;
+  
+    content: justify;
+  
+  }
+  
+  
+  footer{
+  
+    background-color: #1f1e1e;
+  
+    color: white;
+  
+    padding: 5px;
+  
+    text-align: right;
+  
+  }
