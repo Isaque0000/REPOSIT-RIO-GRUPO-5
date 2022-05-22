@@ -2,11 +2,11 @@ header{
 
     background-color: #b9b6b6;
   
-    padding: 20px;
-  
-    columns: 3;
+    padding: 40px;
+
   
     text-align: center;
+    height: 40%;
   
   }
   
@@ -20,13 +20,8 @@ header{
   }
   
   img{
-  
-    padding: 4px;
-  
-    width: 200%;
-  
-    height: 100%;
-  
+    width: 80px;
+    float: left;  
   }
   
   
