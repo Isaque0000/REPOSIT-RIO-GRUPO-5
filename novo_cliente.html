@@ -31,26 +31,31 @@
       text-align: center;
       color: white;
     }
-    .cadastro{
-    padding-left: 35%;
+    .formulario{
+      align-content: center;
+      margin-left:35%;
+      margin-top: 10%;
     }
-    .novo-cliente{
-      padding-bottom: 5%;
+    .botao{
+      margin-left: 20%;
     }
   </style>
 
   <div class="header">
-    <img src="logo.svg" alt="Logo" width="10%" ><h1>BioLab</h1>
+      <img src="logo.svg" alt="Logo" width="10%" ><h1>BioLab</h1>
   </div>
-  <div class="novo-cliente">
-    <h3 class="novo-cliente" ><strong>Novo cliente</strong></h3>
-  </div>   
-  <div class="cadastro">
-    <input type="text" name="nome" id="nome" placeholder="Nome">
-    <input type="email" name="email" id="email" placeholder="E-mail">
 
-  </div>  
+  <h3 class="novo-cliente" ><strong>Novo cliente</strong></h3>
 
+  <div class="formulario">
+  <form action="dados-cliente.php" method="post">
+      <input type="email" name="email" id="email" placeholder="Email">
+      <input type="text" name="nome" id="nome" placeholder="Nome"><br><br>
+      <input type="text" name="telefone" id="telefone" placeholder="Telefone">
+      <input type="text" name="telefone" id="telefone" placeholder="Telefone"><br><br>
+      <input class="botao" type="submit">
+  </form>
+</div>   
 </body>   
 </html>    
      
